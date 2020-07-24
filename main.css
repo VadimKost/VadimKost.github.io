@@ -1,0 +1,70 @@
+
+header{
+    background-image: url("assets/bg.png");
+    height: 200px;
+    background-size: cover;
+}
+.box{
+    margin-top: -60px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    animation: show 1s 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.name-text {
+    font-family:"Modern No. 20";
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+
+.und-text {
+    font-family: Roboto Mono,"Times New Roman";
+    font-style: italic;
+    margin-right: 15px;
+}
+
+
+.c-text {
+    font-family: Roboto Mono,"Times New Roman";
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+
+
+.textbox {
+    background-color: #739EC6;
+    margin-top: 50px;
+    border-radius:30px ;
+    color: white;
+    animation: show 1s 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+.skillbox{
+    margin-top: 10px;
+    background-color: #e4e8ee;
+    border:5px solid white;
+    border-radius: 20px;
+    animation: show 1s 1 ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+
+@keyframes show {
+    from{
+        opacity: 0;
+        transform: translate(-100px);
+    }
+    to{
+        opacity: 1;
+    }
+}
